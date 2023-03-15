@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s;
+}
+
+.card {
+    background-color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+p{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 24px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 20px;
+}
+
+ul li {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+ul li:hover {
+    transform: scale(1.4);
+}
+
+#red{
+    background-color: #DC143C;
+}
+#green{
+    background-color: #006400;
+}
+#amber{
+    background-color: #FF8C00;
+}
+#blue{
+    background-color: #483D8B;
+}
+#grey{
+    background-color: #2F4F4F;
+}
+
+#pink{
+    background-color: #FF1493;
+}
+
+#purple{
+    background-color: #BA55D3;
+}
+
+#black{
+    background-color: #000000;
+}
+
+#brown{
+    background-color: #A52A2A;
+}
+
+#violet{
+    background-color: #9400D3;
+}
+
+
+
+body.red {
+    background-color:#DC143C;
+    color: #DC143C;
+}
+
+body.green{
+    background-color: #006400;
+    color: #006400;
+}
+body.amber{
+    background-color: #FF8C00;
+    color: #FF8C00;
+}
+body.blue{
+    background-color: #483D8B;
+    color:#483D8B;
+}
+body.grey{
+    background-color: #2F4F4F;
+    color:#2F4F4F;
+}
+
+body.pink{
+    background-color: #FF1493;
+    color: #FF1493;
+}
+
+body.purple{
+    background-color: #BA55D3;
+    color: #BA55D3;
+}
+
+body.black{
+    background-color: #000000;
+    color: #000000;
+}
+
+body.brown{
+    background-color: #A52A2A;
+    color: #A52A2A;
+}
+
+body.violet{
+    background-color: #9400D3;
+    color: #9400D3;
+}
